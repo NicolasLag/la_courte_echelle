@@ -1,5 +1,6 @@
 .features img {
-  width: 100px;
+  width: 80px;
+  padding: 6px;
 }
 .features h2 {
   font-size: 20px;
@@ -8,4 +9,7 @@
 .features p {
   font-size: 15px;
   font-weight: lighter;
+}
+.padded-top {
+  padding-top: 1em;
 }
