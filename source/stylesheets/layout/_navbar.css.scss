@@ -44,12 +44,14 @@
   font-size: 16px;
 }
 .navbar-wagon-link:hover {
-  color: #da552f;
-  text-decoration: none;
+  color: #428BCA;
+}
+.navbar-wagon-link, .navbar-wagon-link:hover, .navbar-wagon-link:active, .navbar-wagon-link:visited {
+  text-decoration:none;
 }
 
 /* Navbar right button */
-.navbar-wagon-button {
+.navbar-wagon-button, .navbar-wagon-button:visited {
   margin-left: 10px;
   padding: 0 20px;
   border-radius: 10px;

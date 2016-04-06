@@ -1,19 +1,19 @@
 <div class="navbar-wagon">
   <!-- Logo -->
   <% link_to "/", class: "navbar-wagon-brand" do %>
-    <%= image_tag "logo.png" %>
+    <%= image_tag "logo_2.png" %>
   <% end %>
 
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
 
     <!-- Text link -->
-    <%= link_to "Livret d'Accueil", "https://drive.google.com/open?id=0B3-2Z8ekB6XYVjNybGwzSzdZamc", class: "navbar-wagon-item navbar-wagon-link", :target => "_blank" %>
-    |
-    <%= link_to "Journée type", "day.html", class: "navbar-wagon-item navbar-wagon-link" %>
+    <%= link_to "Livret d'accueil", "https://drive.google.com/open?id=0B3-2Z8ekB6XYSkNXdkVMRDY0Smc", class: "navbar-wagon-item navbar-wagon-link", :target => "_blank" %>
 
     <!-- Button (call-to-action) -->
-    <a href="https://crechelacourteechelle.typeform.com/to/OgJSZZ" class="navbar-wagon-item navbar-wagon-button btn">Demande d'inscription</a>
+    <%= link_to "Demande d'inscription", "#myModal", "data-toggle" => "modal", class: "navbar-wagon-item navbar-wagon-button btn" %>
+    <%= partial "modal" %>
+
   </div>
 
   <!-- Dropdown appearing on mobile only -->

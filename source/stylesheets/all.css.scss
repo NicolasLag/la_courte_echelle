@@ -26,9 +26,21 @@ h2 {
   font-weight: bold;
   margin-top: 0;
 }
+h4 {
+  font-size: 15px;
+  font-family: Open-sans, sans-serif;
+  font-weight: lighter;
+}
 .padded {
-  padding: 100px 0;
+  padding: 60px 0;
+}
+.padded-picto {
+  padding: 10px 0 40px 0;
+}
+.padded-map {
+  padding: 40px 0 0 0;
 }
 .wrapper-grey {
   background: #F4F4F4;
 }
+
